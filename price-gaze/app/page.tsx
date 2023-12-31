@@ -1,3 +1,5 @@
+import HCarousel from '@/components/Carousel';
+import Searchbar from '@/components/Searchbar';
 import Image from 'next/image';
 import React from 'react'
 
@@ -25,10 +27,10 @@ const Home = () => {
           Advanced, user-friendly analytics solutions empowering businesses to optimize conversion rates, enhance engagement, and boost customer retention effortlessly.
           </p>
 
-          Searchbar
+          <Searchbar/>
         </div>
 
-        Carousel
+        <HCarousel/>
       </div>
     </section>
 
