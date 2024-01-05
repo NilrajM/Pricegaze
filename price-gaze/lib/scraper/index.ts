@@ -82,11 +82,11 @@ export async function scrapeAmazonProduct(url: string){
             stars:4.5,
             isOutOfStock: outOfStock,
             description,
-            lowesPrice: Number(currPrice) || Number(ogPrice),
+            lowestPrice: Number(currPrice) || Number(ogPrice),
             highestPrice: Number(ogPrice) || Number(currPrice),
             averagePrice: Number(currPrice) || Number(ogPrice),
         }
-        // console.log(data)
+        console.log(data)
 
         return data;
 
