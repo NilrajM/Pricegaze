@@ -10,7 +10,7 @@ export type Product = {
     _id?: string;
     url: string;
     currency: string;
-    image: string;
+    prdImage: string;
     title: string;
     currPrice: number;
     ogPrice: number;
